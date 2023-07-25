@@ -1,0 +1,21 @@
+﻿<Window x:Class="PrismModuleExample1.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        Title="{Binding Title}" Height="350" Width="525" >
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" MinWidth="200" MaxWidth="300"></ColumnDefinition>
+            <ColumnDefinition Width="7*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel>
+            <Button Content="Model A" Command="{Binding OpenCommand}" CommandParameter="ModelA"></Button>
+            <Button Content="Model B" Command="{Binding OpenCommand}" CommandParameter="ModelB"></Button>
+        </StackPanel>
+        <!-- prism:RegionManager.RegionName 设置区域名称（注册区域） -->
+        <ContentControl prism:RegionManager.RegionName="{Binding RegionName}" Grid.Column="1" />
+    </Grid>
+</Window>
