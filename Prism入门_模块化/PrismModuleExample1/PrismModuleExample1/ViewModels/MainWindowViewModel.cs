@@ -1,6 +1,7 @@
 ﻿using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Regions;
+using System.Linq;
 
 namespace PrismModuleExample1.ViewModels
 {
@@ -35,13 +36,32 @@ namespace PrismModuleExample1.ViewModels
             OpenCommand = new DelegateCommand<string>(Open);
         }
 
+        //private void Open(string obj)
+        //{
+        //    // 首先通过IRegionManager接口获取到全局定义的可用区域
+        //    // 往这个区域动态设置内容
+        //    // 动态设置的内容就是通过依赖注入的形式
+        //    // obj 就是在App中注入的导航视图的名称
+        //    regionManager.Regions[RegionName].RequestNavigate(obj);
+        //}
+
         private void Open(string obj)
         {
-            // 首先通过IRegionManager接口获取到全局定义的可用区域
-            // 往这个区域动态设置内容
-            // 动态设置的内容就是通过依赖注入的形式
-            // obj 就是在App中注入的导航视图的名称
-            regionManager.Regions[RegionName].RequestNavigate(obj);
+
+            #region 确保每次都是新的视图对象
+
+            // 获取视图
+            var o = this.regionManager.Regions[regionName].Views.Where(f => f.GetType().Name.Contains(obj)).FirstOrDefault();
+
+            if (o != null)
+            {
+                //  删除视图
+                regionManager.Regions[regionName].Remove(o);
+            }
+
+            #endregion
+
+            this.regionManager.Regions[regionName].RequestNavigate(obj);
         }
     }
 }

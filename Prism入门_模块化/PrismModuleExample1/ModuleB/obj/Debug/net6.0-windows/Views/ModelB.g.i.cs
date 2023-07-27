@@ -53,7 +53,7 @@ namespace ModuleB.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ModuleB;component/views/modelb.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ModuleB;V1.0.0.0;component/views/modelb.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ModelB.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

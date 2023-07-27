@@ -1,0 +1,17 @@
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\bin\Debug\net6.0-windows\ModuleA.deps.json
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\bin\Debug\net6.0-windows\ModuleA.dll
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\bin\Debug\net6.0-windows\ModuleA.pdb
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ModuleA.csproj.AssemblyReference.cache
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\Views\ViewA.g.cs
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ModuleA_MarkupCompile.cache
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ModuleA_MarkupCompile.lref
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\Views\ViewA.baml
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ModuleA.g.resources
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ModuleA.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ModuleA.AssemblyInfoInputs.cache
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ModuleA.AssemblyInfo.cs
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ModuleA.csproj.CoreCompileInputs.cache
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ModuleA.dll
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\refint\ModuleA.dll
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ModuleA.pdb
+D:\code\PrismExample\Prism入门_导航\PrismNavigationExample\ModuleA\obj\Debug\net6.0-windows\ref\ModuleA.dll
